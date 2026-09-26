@@ -21,7 +21,7 @@ img {
     width: 150px;
     border-radius: 50%;
     display: block;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 
 p {
@@ -29,11 +29,50 @@ p {
     color: #333333;
 }
 
-a { 
+a {
     color: darkred;
-    text-decoration: none;   
+    text-decoration: none;
 }
 
 a:hover {
     color: red;
+}
+
+/* Navbar Flexbox */
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-color: darkblue;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: yellow;
+}
+
+/* CSS Grid */
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.skill-card {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
