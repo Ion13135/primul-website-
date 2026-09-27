@@ -73,6 +73,57 @@ a:hover {
     padding: 20px;
     text-align: center;
     border-radius: 10px;
-
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Buton Dark Mode */
+
+#toggle-theme {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: darkblue;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#toggle-theme:hover {
+    background-color: blue;
+}
+
+/* Dark Mode */
+
+.dark-mode {
+    background-color: #1a1a1a;
+    color: white;
+}
+
+.dark-mode p {
+    color: white;
+}
+
+.dark-mode h1,
+.dark-mode h2 {
+    color: white;
+    border-bottom-color: white;
+}
+
+.dark-mode .skill-card {
+    background-color: #333333;
+    color: white;
+}
+
+.dark-mode .navbar {
+    background-color: #000080;
+}
+
+.dark-mode a {
+    color: #87cefa;
+}
+
+.dark-mode hr {
+    border-color: #555555;
 }
